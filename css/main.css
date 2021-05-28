@@ -1,0 +1,39 @@
+*{
+    background-color: #222;
+    color:azure;
+    margin:10px;
+    font-size: 16px;
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-columns: 350px auto;
+    grid-column-gap: 35px;
+    text-align: justify;
+}
+
+.portada{
+    max-width: 100%;
+}
+
+.portada2{
+    max-width: 100%;
+}
+
+.navBar{
+    display: grid;
+    font-size: 20px;
+}
+
+.navBar li:hover{
+    cursor: pointer;
+    color:rgb(117, 113, 113);
+}
+.navBar ul{
+    list-style: none;
+}
+
+.navBar li{
+    display: inline;
+    float: right;
+}
