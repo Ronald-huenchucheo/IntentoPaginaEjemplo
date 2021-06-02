@@ -5,6 +5,31 @@
     font-size: 16px;
 }
 
+.boton{
+    color: darkgrey; 
+    background-color: rgb(20, 20, 20); 
+    border: solid 1px darkgrey;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: black;
+}
+
+.boton1{
+    color: darkgrey; 
+    background-color: rgb(20, 20, 20); 
+    border: solid 1px darkgrey;
+    float: right;
+    cursor: pointer;
+}
+
+.boton1:hover{
+    background-color: black;
+}
+
+
+
 .cuerpo{
     display: grid;
     grid-template-columns: 350px auto;
